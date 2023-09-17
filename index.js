@@ -23,8 +23,15 @@ function main () {
         }
     ])
 
-    .then(answer =>) {
+    .then(answer => {
         generateLogo(answer.text, answer.textColor, answer.shape, answer.shapeColor);
-        
-    }
+
+        console.log("Generate logo.svg");
+    })
+
+    .catch(error => {
+        console.log('Error:', error)
+    });
 }
+
+main();
