@@ -15,6 +15,10 @@ created the Square svg code attributes.
 
 making the generator function so it can render the logo of the trinagle, circle & square. So we are telling node to make to image.(made this is the shapes.js file)
 
+writting out the shapes test so node can know what to identify when we enter in what kind of shape or color.(wrtting out the test to see if its possibly going to pass).
+
+inputing the expectations that our application should expect in the shapes.test file.
+
 
 
 
