@@ -1,24 +1,24 @@
-const inquire = require ('inquire');
-const generatorLogo = require ('./lib/generateLogo.js');
+const inquirer = require ('inquirer');
+const generateLogo = require ('./lib/generateLogo.js');
 
 function main () {
-    inquire.promt([
+    inquirer.prompt([
         {
             name: 'text',
             message: 'Enter up to the characters:', 
         },
         {
-            name: 'text color',
-            message: 'Enter text color',
+            name: 'textColor',
+            message: 'Enter textColor',
         },
         {
             name: 'shape',
             type: 'list',
             message: 'choose a shape',
-            choices: ['circle','square','triangle',]
+            choices: ['Circle','Square','Triangle',]
         },
         {
-            name: 'shapecolor',
+            name: 'shapeColor',
             message: 'Enter shape color:'
         }
     ])

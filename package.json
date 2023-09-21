@@ -1,6 +1,22 @@
 {
+  "name": "svg-logo-generator",
+  "version": "1.0.0",
+  "description": "Showing I can create and SVG logo.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
   "dependencies": {
-    "inquirer": "^8.2.4",
+    "inquirer": "^8.2.4"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
     "jest": "^29.7.0"
   }
 }
